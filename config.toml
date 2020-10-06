@@ -2,7 +2,7 @@
 theme = "hugo-icon"
 baseURL = "https://peaceful-dijkstra-96ff72.netlify.app"
 languageCode = "en-EN"
-title = "Flow"
+title = "ERK Flow"
 
 defaultContentLanguage = "en"
 
@@ -15,20 +15,20 @@ defaultContentLanguage = "en"
 [languages]
 [languages.en]
 weight = 0
-title  = "Flow"
+title  = "ERK Flow"
 
 [languages.et]
 weight = 1
 title = "Flow"
 
 [languages.en.hero]
-  img = "/images/3108_Winter.png"
+  img = "/images/ERK_home.png"
   title = ""
   description = ""
   
 # Hero section estonian (from here on is for icon theme)
 [languages.et.hero]
-  img = "/images/3108_Winter.png"
+  img = "/images/ERK_home.png"
   title = "Lorem ipsum"
   description = "Lorem ipsum dolor sit amet"
 
