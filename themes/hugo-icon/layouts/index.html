@@ -21,7 +21,29 @@
 /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
 #</script>
 	
-	
+<script>
+window.addEventListener(‘dfMessengerLoaded’, {
+ handleEvent: function (event) {
+      const dfMessenger = document.querySelector(‘df-messenger’);
+      dfMessenger.renderCustomText(‘Hola, soy Vega y estoy aquí para ayudarte a resolver tus dudas. ¿En qué te puedo ayudar?’);
+      dfMessenger.showMinChat();
+ }
+});
+window.addEventListener(‘dfMessengerLoaded’, {
+ handleEvent: function (event) {
+      const dfMessenger = document.querySelector(‘df-messenger’);
+  const payload = [
+ {
+  “type”: “image”,
+  “rawUrl”: “”
+ }];
+dfMessenger.renderCustomCard(payload);
+      dfMessenger.renderCustomText(‘(No es necesario que me facilites ningún tipo de información personal, de esta manera podremos mantener el anonimato de la conversación)’);
+		  dfMessenger.renderCustomText(‘Me han enseñado a responder sobre diversas áreas y servicios del Ayuntamiento, como por ejemplo: necesito un certificado de empadronamiento, fechas de vencimiento de tributos, cita previa, búsqueda laboral, subvenciones para emprendedores, actividades culturales, cursos y talleres, bienestar social, deportes, educación, seguridad, urbanismo y mucho más.’);
+      dfMessenger.showMinChat();
+ }
+});
+</script>	 	
   <body>
 <style>
 #modal_trigger {
