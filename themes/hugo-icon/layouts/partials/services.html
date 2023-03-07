@@ -26,6 +26,31 @@
       <p><a href="#" class="btn btn-primary btn-outline fh5co-content-nav" data-nav-section="contact">Get In Touch</a></p>
       <p><a href="#" class="bai-open-chat-btn btn btn-primary btn-outline fh5co-content-nav" >Boost</a></p>
     </div>
+
+<script>
+window.addEventListener(‘dfMessengerLoaded’, {
+ handleEvent: function (event) {
+      const dfMessenger = document.querySelector(‘df-messenger’);
+      dfMessenger.renderCustomText(‘Hola, soy Vega y estoy aquí para ayudarte a resolver tus dudas. ¿En qué te puedo ayudar?’);
+      dfMessenger.showMinChat();
+ }
+});
+window.addEventListener(‘dfMessengerLoaded’, {
+ handleEvent: function (event) {
+      const dfMessenger = document.querySelector(‘df-messenger’);
+  const payload = [
+ {
+  “type”: “image”,
+  “rawUrl”: “”
+ }];
+dfMessenger.renderCustomCard(payload);
+      dfMessenger.renderCustomText(‘(No es necesario que me facilites ningún tipo de información personal, de esta manera podremos mantener el anonimato de la conversación)’);
+		  dfMessenger.renderCustomText(‘Me han enseñado a responder sobre diversas áreas y servicios del Ayuntamiento, como por ejemplo: necesito un certificado de empadronamiento, fechas de vencimiento de tributos, cita previa, búsqueda laboral, subvenciones para emprendedores, actividades culturales, cursos y talleres, bienestar social, deportes, educación, seguridad, urbanismo y mucho más.’);
+      dfMessenger.showMinChat();
+ }
+});
+</script>	  
+	  
  <!-- <script src="https://widget.flowai.app/w/YUdPNlk2Z3c3fGNacWE3SGlwXw==/flow-webclient-1.1.2.min.js?fullscreen=false"></script> -->
 <style>
   df-messenger {
