@@ -2,7 +2,7 @@
 theme = "hugo-icon"
 baseURL = "https://peaceful-dijkstra-96ff72.netlify.app"
 languageCode = "en-EN"
-title = "ERK Flow"
+title = "Granada Demo"
 
 defaultContentLanguage = "en"
 
@@ -15,7 +15,7 @@ defaultContentLanguage = "en"
 [languages]
 [languages.en]
 weight = 0
-title  = "ERK Flow"
+title  = "Granada Demo"
 
 [languages.et]
 weight = 1
