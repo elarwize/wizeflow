@@ -27,6 +27,31 @@
       <p><a href="#" class="bai-open-chat-btn btn btn-primary btn-outline fh5co-content-nav" >Boost</a></p>
     </div>
 
+	  
+ -- <script src="https://widget.flowai.app/w/YUdPNlk2Z3c3fGNacWE3SGlwXw==/flow-webclient-1.1.2.min.js?fullscreen=false"></script>
+<style>
+  df-messenger {
+--df-messenger-bot-message: #F7F7F7;
+ --df-messenger-button-titlebar-color: #FFFFF;
+ --df-messenger-button-titlebar-font-color: #00205B;
+ --df-messenger-chat-background-color: #FAFAFA;
+ --df-messenger-font-color: #000000;
+ --df-messenger-send-icon: #72839F;
+ --df-messenger-user-message: #EDEDED;
+ --df-messenger-minimized-chat-close-icon-color: #00205B;
+	}
+</style>
+	  
+<!-- <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script> -->
+<df-messenger
+  intent="WELCOME"
+  chat-title="Vega - Asistente Virtual"
+  agent-id="b744cd78-f21e-468d-aec8-bf4eb478552e"
+  language-code="es"
+  chat-icon="https://dl.dropbox.com/s/3nturarp3yuhgr9/Vega.gif"
+  placeholder="Haz una pregunta..."	      
+></df-messenger>	  
+
 <script>
 window.addEventListener(‘dfMessengerLoaded’, {
  handleEvent: function (event) {
@@ -51,29 +76,6 @@ dfMessenger.renderCustomCard(payload);
 });
 </script>	  
 	  
- <!-- <script src="https://widget.flowai.app/w/YUdPNlk2Z3c3fGNacWE3SGlwXw==/flow-webclient-1.1.2.min.js?fullscreen=false"></script> -->
-<style>
-  df-messenger {
---df-messenger-bot-message: #F7F7F7;
- --df-messenger-button-titlebar-color: #FFFFF;
- --df-messenger-button-titlebar-font-color: #00205B;
- --df-messenger-chat-background-color: #FAFAFA;
- --df-messenger-font-color: #000000;
- --df-messenger-send-icon: #72839F;
- --df-messenger-user-message: #EDEDED;
- --df-messenger-minimized-chat-close-icon-color: #00205B;
-	}
-</style>
-	  
-<!-- <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script> -->
-<df-messenger
-  intent="WELCOME"
-  chat-title="Vega - Asistente Virtual"
-  agent-id="b744cd78-f21e-468d-aec8-bf4eb478552e"
-  language-code="es"
-  chat-icon="https://dl.dropbox.com/s/3nturarp3yuhgr9/Vega.gif"
-  placeholder="Haz una pregunta..."	      
-></df-messenger>	  
 	  <!-- Suve chat begin -->
 
   </div>
