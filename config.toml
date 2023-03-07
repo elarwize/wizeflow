@@ -22,13 +22,13 @@ weight = 1
 title = "Flow"
 
 [languages.en.hero]
-  img = "/images/ERK_home.png"
+  img = "/images/granada_home.png"
   title = ""
   description = ""
   
 # Hero section estonian (from here on is for icon theme)
 [languages.et.hero]
-  img = "/images/ERK_home.png"
+  img = "/images/granada_home.png"
   title = "Lorem ipsum"
   description = "Lorem ipsum dolor sit amet"
 
