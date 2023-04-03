@@ -2,7 +2,7 @@
 theme = "hugo-icon"
 baseURL = "https://peaceful-dijkstra-96ff72.netlify.app"
 languageCode = "en-EN"
-title = "Granada Demo"
+title = "Test"
 
 defaultContentLanguage = "en"
 
@@ -15,20 +15,20 @@ defaultContentLanguage = "en"
 [languages]
 [languages.en]
 weight = 0
-title  = "Granada Demo"
+title  = "Test"
 
 [languages.et]
 weight = 1
 title = "Flow"
 
 [languages.en.hero]
-  img = "/images/granada_home.png"
+  img = "/images/geometric-bg-overlay-wizeblue.jpg"
   title = ""
   description = ""
   
 # Hero section estonian (from here on is for icon theme)
 [languages.et.hero]
-  img = "/images/granada_home.png"
+  img = "/images/geometric-bg-overlay-wizeblue.jpg"
   title = "Lorem ipsum"
   description = "Lorem ipsum dolor sit amet"
 
